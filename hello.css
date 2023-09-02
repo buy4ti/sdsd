@@ -1,0 +1,44 @@
+.child-1{
+    background-color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.mother-1{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.child-2{
+    background-color: antiquewhite;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.child-3{
+    background-color: antiquewhite;
+    width: 755px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.child-4{
+    background-color: antiquewhite;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.mother-2{
+    display: grid;
+    grid-template-columns: 20% 50% 20%;
+    column-gap: 50px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
